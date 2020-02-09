@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CameraOverlyApp</string>
+    <string name="camera_permission_confirmation">Confirm</string>
+    <string name="camera_permission_not_granted">Not granted</string>
+    <string name="picture_taken">Take picture</string>
+    <string name="storage_permission_not_granted">Not granted</string>
+    <string name="storage_permission_confirmation">Confirm</string>
+    <string name="flash_auto">auto</string>
+    <string name="flash_off">off</string>
+    <string name="flash_on">on</string>
+</resources>

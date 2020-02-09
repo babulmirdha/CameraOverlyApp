@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/listview_background_shape">-->
+<!--    <stroke android:width="2dp" android:color="#ff207d94" />-->
+<!--    <padding android:left="2dp"-->
+<!--        android:top="2dp"-->
+<!--        android:right="2dp"-->
+<!--        android:bottom="2dp" />-->
+<!--    <corners android:radius="5dp" />-->
+<!--    <solid android:color="#ffffffff" />-->
+<!--</shape>-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="0dp"
+    android:shape="rectangle"
+    android:thicknessRatio="2"
+    android:useLevel="false" >
+
+    <solid android:color="@android:color/transparent" />
+
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/darker_gray" />
+
+</shape>

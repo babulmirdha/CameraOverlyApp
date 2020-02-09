@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <item>-->
+<!--        &lt;!&ndash;-->
+<!--            android:shape-->
+<!--                Keyword. Defines the type of shape. Valid values are:-->
+
+<!--                    rectangle : A rectangle that fills the containing View. This is the default shape.-->
+<!--                    oval : An oval shape that fits the dimensions of the containing View.-->
+<!--                    line : A horizontal line that spans the width of the containing View. This-->
+<!--                           shape requires the <stroke> element to define the width of the line.-->
+<!--                    ring : A ring shape.-->
+<!--        &ndash;&gt;-->
+<!--        <shape android:shape="ring"-->
+<!--            android:innerRadius="0dp"-->
+<!--            android:thicknessRatio="2"-->
+<!--            android:useLevel="false"-->
+<!--            >-->
+<!--            <solid android:color="@android:color/transparent"/>-->
+<!--            <stroke android:color="#3b91d7" android:width="5dp"/>-->
+<!--            &lt;!&ndash; Set the same value for both width and height to get a circular shape &ndash;&gt;-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--</selector>-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="2"
+    android:useLevel="false" >
+
+    <solid android:color="@android:color/transparent" />
+
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/darker_gray" />
+
+</shape>
